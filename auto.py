@@ -9,9 +9,9 @@ import datetime
 now = datetime.datetime.now()
 today = datetime.datetime.now().strftime("%A")
 sunday = {
-    "sub1": "Physics", "sub1_teacher": "KG", "sub1_start": now.replace(hour=9, minute=0), "sub1_end": now.replace(hour=9, minute=45),
-    "sub2": "Maths", "sub2_teacher": "NVP", "sub2_start": now.replace(hour=10, minute=15), "sub2_end": now.replace(hour=11, minute=0),
-    "sub3": "Chem", "sub3_teacher": "RT", "sub3_start": now.replace(hour=11, minute=15), "sub3_end": now.replace(hour=12, minute=0),
+    "sub1": "Biology", "sub1_teacher": "BR", "sub1_start": now.replace(hour=8, minute=30), "sub1_end": now.replace(hour=9, minute=10),
+    "sub2": "Biology", "sub2_teacher": "ST", "sub2_start": now.replace(hour=9, minute=20), "sub2_end": now.replace(hour=10, minute=0),
+    "sub3": "Mechanics", "sub3_teacher": "AKC", "sub3_start": now.replace(hour=10, minute=40), "sub3_end": now.replace(hour=11, minute=20),
     "sub4": "Further", "sub4_teacher": "", "sub4_start": now.replace(hour=12, minute=30), "sub4_end": now.replace(hour=13, minute=15),
     "sub5": "Chem", "sub5_teacher": "ShT", "sub5_start": now.replace(hour=13, minute=30), "sub5_end": now.replace(hour=14, minute=15)}
 monday = {
